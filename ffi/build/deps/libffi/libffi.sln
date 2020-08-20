@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "closure-test", "closure-test.vcxproj", "{39DD0FDA-DBF7-7B05-0A5A-7A69F6A308F4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{67DF7D33-F64B-1220-4638-8283AA0A15A7} = {67DF7D33-F64B-1220-4638-8283AA0A15A7}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ffi", "ffi.vcxproj", "{67DF7D33-F64B-1220-4638-8283AA0A15A7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test.vcxproj", "{E7014EFC-E6D0-5708-09D7-95311AEC4D0E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{67DF7D33-F64B-1220-4638-8283AA0A15A7} = {67DF7D33-F64B-1220-4638-8283AA0A15A7}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39DD0FDA-DBF7-7B05-0A5A-7A69F6A308F4}.Debug|x64.ActiveCfg = Debug|x64
+		{39DD0FDA-DBF7-7B05-0A5A-7A69F6A308F4}.Debug|x64.Build.0 = Debug|x64
+		{39DD0FDA-DBF7-7B05-0A5A-7A69F6A308F4}.Release|x64.ActiveCfg = Release|x64
+		{39DD0FDA-DBF7-7B05-0A5A-7A69F6A308F4}.Release|x64.Build.0 = Release|x64
+		{67DF7D33-F64B-1220-4638-8283AA0A15A7}.Debug|x64.ActiveCfg = Debug|x64
+		{67DF7D33-F64B-1220-4638-8283AA0A15A7}.Debug|x64.Build.0 = Debug|x64
+		{67DF7D33-F64B-1220-4638-8283AA0A15A7}.Release|x64.ActiveCfg = Release|x64
+		{67DF7D33-F64B-1220-4638-8283AA0A15A7}.Release|x64.Build.0 = Release|x64
+		{E7014EFC-E6D0-5708-09D7-95311AEC4D0E}.Debug|x64.ActiveCfg = Debug|x64
+		{E7014EFC-E6D0-5708-09D7-95311AEC4D0E}.Debug|x64.Build.0 = Debug|x64
+		{E7014EFC-E6D0-5708-09D7-95311AEC4D0E}.Release|x64.ActiveCfg = Release|x64
+		{E7014EFC-E6D0-5708-09D7-95311AEC4D0E}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

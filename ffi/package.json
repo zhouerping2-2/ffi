@@ -1,0 +1,84 @@
+{
+  "_from": "github:gavignus/node-ffi#torycl/forceset-fix",
+  "_id": "ffi@2.2.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/ffi",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "ffi@gavignus/node-ffi#torycl/forceset-fix",
+    "name": "ffi",
+    "escapedName": "ffi",
+    "rawSpec": "gavignus/node-ffi#torycl/forceset-fix",
+    "saveSpec": "github:gavignus/node-ffi#torycl/forceset-fix",
+    "fetchSpec": null,
+    "gitCommittish": "torycl/forceset-fix"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "github:gavignus/node-ffi#a6da649e9036511a817b3557aa9e92e152943839",
+  "_spec": "ffi@gavignus/node-ffi#torycl/forceset-fix",
+  "_where": "D:\\Project\\Electron\\study\\kpqTest",
+  "author": {
+    "name": "Rick Branson"
+  },
+  "bugs": {
+    "url": "http://github.com/node-ffi/node-ffi/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Nathan Rajlich",
+      "email": "nathan@tootallnate.net",
+      "url": "http://tootallnate.net"
+    },
+    {
+      "name": "Gabor Mezo",
+      "email": "gabor.mezo@outlook.com",
+      "url": "https://github.com/unbornchikken"
+    }
+  ],
+  "dependencies": {
+    "bindings": "~1.2.0",
+    "debug": "2",
+    "nan": "2",
+    "ref": "1",
+    "ref-struct": "1"
+  },
+  "deprecated": false,
+  "description": "A foreign function interface (FFI) for Node.js",
+  "devDependencies": {
+    "fs-extra": "^0.23.1",
+    "mocha": "*",
+    "ref-array": "1"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "gypfile": true,
+  "homepage": "http://github.com/node-ffi/node-ffi",
+  "keywords": [
+    "foreign",
+    "function",
+    "interface",
+    "ffi",
+    "libffi",
+    "binding",
+    "c"
+  ],
+  "license": "MIT",
+  "main": "./lib/ffi",
+  "name": "ffi",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/node-ffi/node-ffi.git"
+  },
+  "scripts": {
+    "install": "node-gyp rebuild",
+    "test": "node-gyp rebuild --directory test && mocha -gc --reporter spec"
+  },
+  "version": "2.2.0"
+}
